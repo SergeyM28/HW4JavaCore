@@ -1,2 +1,9 @@
-package ru.mikhailov;public class AmountException {
+package ru.mikhailov;
+
+public class AmountException extends Exception{
+
+    public AmountException(String message) {
+        super(message);
+    }
 }
+
